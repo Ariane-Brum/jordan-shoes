@@ -1,0 +1,30 @@
+.footer {
+  padding: 0.875rem 1rem;
+  background: #141414;
+  color: #c3adff;
+  text-align: center;
+  font: var(--font-16);
+}
+
+.footer .footerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .footerWrapper a {
+  color: #c3adff;
+}
+
+.powered {
+  display: flex;
+  align-items: center;
+  color: #c3adff;
+  gap: 0.4rem;
+}
+
+@media (max-width: 480px) {
+  .footer .footerWrapper {
+    flex-direction: column;
+  }
+}

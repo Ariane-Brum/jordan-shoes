@@ -1,0 +1,68 @@
+.parallaxBg {
+  background-image: url("./img/wallpaper.jpeg");
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.parallaxBg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+.parallaxWrapper {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.parallaxInfo {
+  height: 129px;
+}
+
+.parallaxInfo h2 {
+  font: var(--font-32);
+  margin-bottom: 1.25rem;
+}
+
+.parallaxInfo span {
+  font: var(--font-18);
+  margin-bottom: 1.25rem;
+  max-width: 39ch;
+}
+
+@media (max-width: 480px) {
+  .parallaxBg {
+    min-height: 350px;
+    background-attachment: inherit;
+  }
+
+  .parallaxInfo {
+    height: 109px;
+  }
+
+  .parallaxWrapper {
+    min-height: 350px;
+  }
+
+  .parallaxInfo h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .parallaxInfo span {
+    font: var(--font-16);
+  }
+}
