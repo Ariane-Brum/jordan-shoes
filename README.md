@@ -14,7 +14,7 @@
 <img src="https://user-images.githubusercontent.com/64805032/176013269-f17fcdf9-173a-43d8-9ae4-7b5bd9ff49c0.png" alt="autor" width="400">
 
 <br>
-<h4>Clique aqui para visitar o projeto <a href="">Jordan Shoes</a></h4>
+<h4>Clique aqui para visitar o projeto <a href="https://ariane-jordan-shoes.vercel.app/">Jordan Shoes</a></h4>
 <br>
 
 <h3 id="tecnologias">🛠 Tecnologias utilizadas</h3>

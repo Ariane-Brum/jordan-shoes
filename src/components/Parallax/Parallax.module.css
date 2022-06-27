@@ -1,5 +1,5 @@
 .parallaxBg {
-  background-image: url("./img/wallpaper.jpeg");
+  background-image: url("../../assets/wallpaper.jpeg");
   min-height: 600px;
   background-attachment: fixed;
   background-position: center bottom;
